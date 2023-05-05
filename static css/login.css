@@ -1,0 +1,110 @@
+*{
+    font-family: "Poppins";
+}
+
+body{
+    background-image: url("../img/paisagem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/*TITULO E LINK PARA O CADASTRO----------------*/
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.conteiner{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+
+header{
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+}
+
+.link-cadastro{
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+
+ /*INPUTS----------------*/
+.input-usuario input{
+    position: relative;
+    font-size: 30px;
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.308);
+    outline: none;
+}
+
+/*INPUTS  NOME----------------*/
+.input-nome{
+    position: absolute;
+    top: 0px;
+}
+.input-gmail::placeholder{
+    color: #ffffff;
+}
+
+
+/*INPUTS  SENHA----------------*/
+.input-senha{
+    position: absolute;
+    top: 20px;
+}
+.input-senha::placeholder{
+    color: #ffffff;
+}
+
+
+/*INPUTS  DO CADASTRO (BTN)----------------*/
+.input-btn .btn{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.351);
+    cursor: pointer;
+}
+
+.btn{
+    position: relative;
+    top: 40px;
+}
+
+.login{
+    color: #ffffff;
+}
+
+
+/*REDEFINIR SENHA----------------*/
+.redefinir{
+    position: absolute;
+    top: 530px;
+    left: 700px;
+    color: #ffffff;
+}

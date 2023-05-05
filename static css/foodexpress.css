@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img:hover{
+    transform: scale(1.1,1.1);
+    transition: transform 0.3s ease-in-out;
+}
+img:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+
+p{
+    font-family: figtree;
+}
+
+a{
+    font-family: figtree;
+}
+
+h1{
+    font-family: play;
+}
+/*------------------------------------------------------------*/
+
+
+
+.cabeçalho{
+    position: relative;
+}
+
+.nome-logo{
+    font-size: 54px;
+    font-family: bruno ace sc;
+    color: #ff9008;
+    position: absolute;
+
+    width: 100%;
+    height: 315vh;
+    background: linear-gradient(-45deg,  #05233c, 35% , #410303 ,#0c0c0c);
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    left: 460px;
+}
+
+.login-btn{
+    font-family: play;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    background: none;
+    border: none;
+}
+
+.link-btn-login{
+    font-size: 20px;
+    color: #ff9008;
+}
+
+.divisor{
+    background-color: #ff901a;
+    position: absolute;
+    top: 60px;
+}
+/*------------------------------------------------------------*/
+
+
+
+.comidas{
+    position: relative;
+}
+
+.titulo-comidas{
+    font-size: 60px;
+    position: absolute;
+    left: 645px;
+    top: 120px;
+    color: #ff9008;
+}
+
+.foto-comidas{
+    position: relative;
+}
+
+/*------------------------------------------------------------*/
+.comida-1{
+    position: absolute;
+    display: block;
+    border-radius: 20px;
+    top: 220px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+    
+}
+.comida-1-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 530px;
+    left: 250px;
+    color: #f9c10a;
+}
+.comida-1:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.comida-1:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+.comida-2{
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    top: 220px;
+    left: 920px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+
+}
+.comida-2-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 530px;
+    left: 1015px;
+    color: #f9c10a;
+}
+.comida-2:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.comida-2:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+
+.comida-3{
+    position: absolute;
+    border-radius: 20px;
+    display: block;
+    top: 700px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.comida-3-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 1010px;
+    left: 230px;
+    color: #f9c10a;
+}
+.comida-3:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.comida-3:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+
+.comida-4{
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    top: 700px;
+    left: 920px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.comida-4-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 1010px;
+    left: 930px;
+    color: #f9c10a;
+}
+.comida-4:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.comida-4:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+.bebidas{
+    position: relative;
+}
+
+
+.divisor-bebidas{
+    position: absolute;
+    top: 1190px;
+    background: linear-gradient(-45deg,  #010131 , #0e3aa0 ,#0f9ea3);
+}
+
+.titulo-bebidas{
+    position: absolute;
+    font-size: 60px;
+    left: 645px;
+    top: 1300px;
+    color: #a5d6d9;
+}
+/*------------------------------------------------------------*/
+
+
+.bebida-1{
+    position: absolute;
+    border-radius: 20px;
+    top: 1430px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.bebida-1-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 1750px;
+    left: 250px;
+    color: #1bede3;
+}
+.bebida-1:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.bebida-1:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+
+.bebida-2{
+    position: absolute;
+    border-radius: 20px;
+    top: 1430px;
+    left: 920px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.bebida-2-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 1750px;
+    left: 1015px;
+    color: #1bede3;
+}
+.bebida-2:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.bebida-2:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+
+.bebida-3{
+    position: absolute;
+    border-radius: 20px;
+    top: 1920px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.bebida-3-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 2250px;
+    left: 230px;
+    color: #1bede3;
+}
+.bebida-3:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.bebida-3:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------------------------------*/
+
+
+
+.bebida-4{
+    position: absolute;
+    border-radius: 20px;
+    top: 1920px;
+    left: 920px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 5px 1.5px #000000;
+}
+.bebida-4-texto{
+    position: absolute;
+    font-size: 34px;
+    top: 2250px;
+    left: 1015px;
+    color: #1bede3;
+}
+.bebida-4:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out;
+}
+.bebida-4:not(:hover) {
+    transform: scale(1,1);
+    transition: all 0.3s ease-in-out;
+}
+
+
